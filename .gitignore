@@ -1,0 +1,17 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Terraform
+.terraform/
+**/.terraform/
+terraform.tfstate
+*.tfstate
+*.tfstate.backup
+
+# Java / Gradle
+/build/
+out/
+
+# OS
+.DS_Store
