@@ -1,13 +1,11 @@
 package com.examp.back
 
-import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
 
-@SpringBootTest
-class BackApplicationTests {
+@SpringBootApplication
+class BackApplication
 
-	@Test
-	fun contextLoads() {
-	}
-
+fun main(args: Array<String>) {
+    runApplication<BackApplication>(*args)
 }
